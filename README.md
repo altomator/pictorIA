@@ -3,6 +3,9 @@
 Cet espace propose des tutoriels réalisés dans le cadre des activités du consortium Huma-Num [PictorIA](https://pictoria.hypotheses.org/).
 
 ## Détection d'objets avec Roboflow
+
+Atelier BnF Datalab — 26 juin 2024.
+
 [Slides](https://docs.google.com/presentation/d/1-a0tdgQRa2K5ESwN5IhTn8VnGtDaxeseK37TgvtaiHY/edit#)
 
 Code :
