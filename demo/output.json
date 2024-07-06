@@ -1,0 +1,50 @@
+[
+    {
+        "x_min": 161.0,
+        "y_min": 1581.0,
+        "x_max": 631.0,
+        "y_max": 1922.0,
+        "class_id": 0,
+        "confidence": 0.9386089444160461,
+        "tracker_id": "",
+        "class_name": "cheval",
+        "file": "images/6000415-150.jpg",
+        "model": "cheval-mandragore/3"
+    },
+    {
+        "x_min": 326.0,
+        "y_min": 1402.0,
+        "x_max": 541.0,
+        "y_max": 1788.0,
+        "class_id": 1,
+        "confidence": 0.931382417678833,
+        "tracker_id": "",
+        "class_name": "humain",
+        "file": "images/6000415-150.jpg",
+        "model": "cheval-mandragore/3"
+    },
+    {
+        "x_min": 1232.0,
+        "y_min": 1410.0,
+        "x_max": 1390.0,
+        "y_max": 1825.0,
+        "class_id": 1,
+        "confidence": 0.8981704711914062,
+        "tracker_id": "",
+        "class_name": "humain",
+        "file": "images/6000415-150.jpg",
+        "model": "cheval-mandragore/3"
+    },
+    {
+        "x_min": 748.0,
+        "y_min": 1369.0,
+        "x_max": 1113.0,
+        "y_max": 1847.0,
+        "class_id": 1,
+        "confidence": 0.838462233543396,
+        "tracker_id": "",
+        "class_name": "humain",
+        "file": "images/6000415-150.jpg",
+        "model": "cheval-mandragore/3"
+    }
+]
