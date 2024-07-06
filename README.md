@@ -6,3 +6,5 @@
 Code :
 - [inférence locale d'un modèle Roboflow](https://github.com/altomator/pictorIA/blob/main/python/test_inference.py)
 - [conversion d'annotations au format IIIF]()
+
+![inférence Roboflow sur image de test](./demo/inference.png)
