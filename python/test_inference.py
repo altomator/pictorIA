@@ -8,8 +8,10 @@ import cv2
 image_file = "images/6000415-150.jpg"
 image = cv2.imread(image_file)
 
+# modele roboflow
+model_name = "cheval-mandragore/3"
 # chargement du modèle Roboflow
-model = inference.get_model("cheval-mandragore/3")
+model = inference.get_model(model_name)
 
 # inférence
 results = model.infer(image)[0]
@@ -29,3 +31,10 @@ annotated_image = label_annotator.annotate(
 
 # afficher l'image annotée
 sv.plot_image(annotated_image)
+
+# exporter les annotations
+# https://supervision.roboflow.com/latest/detection/tools/save_detections/#supervision.detection.tools.json_sink.JSONSink
+json_sink = sv.JSONSink("./output.json")
+json_sink.open()
+json_sink.append(detections, custom_data={'file':image_file, 'model':model_name})
+json_sink.write_and_close()
