@@ -1,7 +1,15 @@
-# Call inference for a image with a Roboflow model.
+# Réalise une inference sur une image avec un modèle Roboflow.
 
-# Usage:
-# python test_inference.py
+# Usage :
+# python test_inference.py image_file model_name
+
+# Setup :
+# python -m venv roboflow
+# source roboflow/bin/activate
+# pip install inference
+# export ROBOFLOW_API_KEY="votre clé"
+# python test_inference.py ...
+
 
 import inference
 import supervision as sv # https://supervision.roboflow.com/
