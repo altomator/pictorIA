@@ -13,11 +13,11 @@ _Atelier BnF Datalab — 26 juin 2024._
 ### Code 
 
 #### [Inférence locale d'un modèle Roboflow](https://github.com/altomator/pictorIA/blob/main/python/test_inference.py)
-` > python test_inference.py images/6000415-150.jpg "cheval-mandragore/3" `
+` python test_inference.py images/6000415-150.jpg "cheval-mandragore/3" `
 
 ![inférence Roboflow sur image de test](./demo/inference.png)
 
 
 #### [Conversion des annotations Roboflow vers le format IIIF]()
 
-` >python roboflow2iiif.py btv1b6000415h 150 2.438 images/6000415-150.json `
+` python roboflow2iiif.py btv1b6000415h 150 2.438 images/6000415-150.json `
