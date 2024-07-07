@@ -10,6 +10,6 @@ _Atelier BnF Datalab — 26 juin 2024._
 
 Code :
 - [inférence locale d'un modèle Roboflow](https://github.com/altomator/pictorIA/blob/main/python/test_inference.py)
-- [conversion d'annotations au format IIIF]()
+- [conversion des annotations Roboflow vers le format IIIF]()
 
 ![inférence Roboflow sur image de test](./demo/inference.png)
