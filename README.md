@@ -6,7 +6,7 @@ Cet espace propose des tutoriels réalisés dans le cadre des activités du cons
 
 _Atelier BnF Datalab — 26 juin 2024._
 
-Projet Roboflow :  https://mandragore.bnf.fr/
+Projet Roboflow : https://app.roboflow.com/bnf/cheval-mandragore/
 
 ### Tutoriel
 
