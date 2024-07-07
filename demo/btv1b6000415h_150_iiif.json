@@ -1,0 +1,59 @@
+{"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/manifest.json": {
+"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/canvas/f150": [
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "btv1b6000415h-150-0",
+        "@type": "oa:Annotation",
+        "motivation": "oa:describing",
+        "resource": [
+            {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>cheval (0.94)</p>"
+            }
+        ],
+        "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/canvas/f150#xywh=392,3854,1145,831"
+    },
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "btv1b6000415h-150-1",
+        "@type": "oa:Annotation",
+        "motivation": "oa:describing",
+        "resource": [
+            {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>humain (0.93)</p>"
+            }
+        ],
+        "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/canvas/f150#xywh=794,3418,524,941"
+    },
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "btv1b6000415h-150-2",
+        "@type": "oa:Annotation",
+        "motivation": "oa:describing",
+        "resource": [
+            {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>humain (0.90)</p>"
+            }
+        ],
+        "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/canvas/f150#xywh=3003,3437,385,1011"
+    },
+    {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "btv1b6000415h-150-3",
+        "@type": "oa:Annotation",
+        "motivation": "oa:describing",
+        "resource": [
+            {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>humain (0.84)</p>"
+            }
+        ],
+        "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000415h/canvas/f150#xywh=1823,3337,889,1165"
+    }
+]}}
