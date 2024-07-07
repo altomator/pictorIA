@@ -1,20 +1,32 @@
-# convert Roboflow annotations to IIIF annotations (API Presentation 2.0)
-# The annotations can then be uploaded in a IIIF viewer
-# Usage:
-# python3 roboflow2iiif.py ARK_id page_number ratio json_file
+# Convertit des annotations Roboflow vers le format IIIF (API Presentation 2.0)
+# Opère au niveau de l'image pour un document Gallica.
+# Les annotations peuvent ensuite être chargées dans un visualiseur IIIF.
+
+# Usage :
+# python3 roboflow2iiif.py ARK_id numéro_de_page ratio_image fichier_json_Roboflow
+
+# Notes :
+# 1. La clé utilisateur Roboflow doit être exportée dans le Terminal :
+# >export ROBOFLOW_API_KEY="votre clé"
+#
+# 2. Le ratio entre la taille de numérisation de l'image (celle qui utilisée dans le manifeste IIIF)
+# et la taille de l'image traitée lors de l'inférence doit être fourni
+
+# 3. Le format du fichier JSON Roboflow est celui produit par la classe supervision/JSON Sink
+
 
 import json
 import argparse
 
 parser = argparse.ArgumentParser(description='Convert Roboflow annotations to IIIF annotations (API Presentation 2.0)')
 parser.add_argument('ark',  type=str,
-                    help='ARK identifier')
+                    help='Gallica document ARK identifier ')
 parser.add_argument('page',  type=int,
                     help='page number')
 parser.add_argument('ratio',  type=float, default=1.0,
-                    help='image dimensions ratio')
+                    help='image dimension ratio')
 parser.add_argument('data',  type=str,
-                    help='input JSON data')
+                    help='Roboflow JSON file')
 
 args = parser.parse_args()
 
